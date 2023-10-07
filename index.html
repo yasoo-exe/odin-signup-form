@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
   </head>
   <body>
     <div class="container">
@@ -32,27 +36,32 @@
                 <div class="inputfields">
                   <span>
                     <label for="fname">FIRST NAME</label>
-                    <input type="text" name="fname" id="fname" />
+                    <input type="text" name="fname" id="fname" required />
                   </span>
                   <span>
                     <label for="lname">LAST NAME</label>
-                    <input type="text" name="lname" id="lname" />
+                    <input type="text" name="lname" id="lname" required />
                   </span>
                 </div>
                 <div class="inputfields">
                   <span>
                     <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="email" id="email" required />
                   </span>
                   <span>
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="phone" id="phone" />
+                    <input type="tel" name="phone" id="phone" required />
                   </span>
                 </div>
                 <div class="inputfields">
                   <span>
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password" />
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      required
+                    />
                   </span>
                   <span>
                     <label for="confirmpassword">CONFIRM PASSWORD</label>
@@ -60,6 +69,7 @@
                       type="password"
                       name="confirmpassword"
                       id="confirmpassword"
+                      required
                     />
                   </span>
                 </div>
@@ -68,7 +78,7 @@
             </form>
           </div>
           <div>
-            <p>Already have an account? Log in</p>
+            <p>Already have an account? <a href="">Log in</a></p>
           </div>
         </div>
       </div>
